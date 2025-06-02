@@ -11,3 +11,6 @@ https://www.kaggle.com/datasets/pandrii000/hituav-a-highaltitude-infrared-therma
 * https://arxiv.org/abs/1506.02640
 
 Provided references are only a fraction of all scientific papers related to the object detection and thermal image processing. A thorough literature review would take far more time than the time constraints imposed on that project. The literature provided here presents then the most imporatant aspects and shows that most of the papers focus on specific details but they all use the same set of common tools and network architectures. It provides enoug detail to have a starting point for an own project implementation.
+
+new model to try:
+https://huggingface.co/foduucom/thermal-image-object-detection

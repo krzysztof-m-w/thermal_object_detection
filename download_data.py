@@ -1,11 +1,12 @@
 import kagglehub
 import os
 
-# Download latest version
-path = kagglehub.dataset_download("pandrii000/hituav-a-highaltitude-infrared-thermal-dataset")
+def download_data():
+    # Download latest version
+    path = kagglehub.dataset_download("pandrii000/hituav-a-highaltitude-infrared-thermal-dataset")
 
-print("Path to dataset files:", path)
+    print("Path to dataset files:", path)
 
-os.makedirs("tmp")
-subdir = os.path.join(path, "hit-uav")
-os.rename(subdir, os.path.join("tmp", "dataset"))
+    os.makedirs("tmp")
+    subdir = os.path.join(path, "hit-uav")
+    os.rename(subdir, os.path.join("tmp", "dataset"))
