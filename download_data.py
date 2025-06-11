@@ -10,3 +10,4 @@ def download_data():
     os.makedirs("tmp")
     subdir = os.path.join(path, "hit-uav")
     os.rename(subdir, os.path.join("tmp", "dataset"))
+    
